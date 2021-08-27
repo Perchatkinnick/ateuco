@@ -1,0 +1,25 @@
+/* CSS HEX */
+:root {
+    --white: #FFFFFF;
+    --black: #111111;
+    --non-active: #E0EEEF;
+    --yellow: #F5C92A;
+    --green: #3FE395;
+    --red: #F34F4F;
+    --light-sky: #878787;
+    --dark-blue: #006BA5;
+    --blue: #1C7DAF;
+    --sky: #00ABBE;
+    --emerald: #04AAB4;
+    --violet: #AE7AF0;
+}
+
+
+/* CSS HSL */
+.CSS_HSL{
+/*--charcoal: hsla(197, 37%, 24%, 1);
+--persian-green: hsla(173, 58%, 39%, 1);
+--orange-yellow-crayola: hsla(43, 74%, 66%, 1);
+--sandy-brown: hsla(27, 87%, 67%, 1);
+--burnt-sienna: hsla(12, 76%, 61%, 1);*/
+}
