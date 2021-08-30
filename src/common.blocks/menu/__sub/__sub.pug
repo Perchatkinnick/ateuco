@@ -1,0 +1,12 @@
+﻿style
+    include ./__sub.css
+    include ../../menu-item/__icon/__icon.css
+    include ../../menu-item/__sub/__sub.css
+
+include ../../menu-item/menu-item.pug
+
+.menu__sub
+     +menu-item()(class='item__icon')
+     +menu-item('модель')(class='__model item__sub')
+     +menu-item('статус')(class='__status item__sub')
+     +menu-item('склад')(class='store item__sub')

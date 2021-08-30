@@ -1,0 +1,8 @@
+style
+    include ./menu-item.css
+    include ../../styles/media.css
+
+mixin menu-item(content, link)
+    - const classes = ['menu-item', attributes.class]
+    div(class=classes) #{content}
+        <p>

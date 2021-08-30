@@ -1,0 +1,9 @@
+.sidebar {
+    grid-column: sidebar;
+    background: var(--light-sky);
+    display: grid;
+    grid-template-rows: [logo] 160px [menu] 477px [arrow];
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: var(--sky);
+}

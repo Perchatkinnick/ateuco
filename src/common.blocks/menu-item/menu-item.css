@@ -1,0 +1,30 @@
+.menu-item {
+    display: block;
+    height: 58px;
+    line-height: 60px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--sky);
+}
+
+    .menu-item a:active,
+    .menu-item a:hover,
+    .menu-item a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+.menu-item:hover{
+    background: var(--blue);
+}
+
+    .menu-item p {
+        text-align: center;
+        line-height: 59px;
+        font-family: Geometria;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--dark-blue);
+    }

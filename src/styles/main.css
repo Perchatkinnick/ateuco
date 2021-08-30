@@ -3,22 +3,21 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	cursor: default;
 }
 
 body {
-	display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-	background: var(--white);
 	width: 100%;
+	height: 100%;
+	background: var(--body-bgrd);
 }
 
 .wrapper {
 	margin: 0 auto;
-	min-height: 100vh; 
+	min-height: 100vh;
 	flex: 1;
-	max-width: 1500px;
-
-
-	background: var(--primary-color);
+	max-width: 1280px;
+	background: var(--white);
+	display: grid;
+	grid-template-columns: [sidebar] 10.3% [content];
 }

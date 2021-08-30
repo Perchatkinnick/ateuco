@@ -56,14 +56,14 @@ const plugins = () => {
         }),
          new CleanWebpackPlugin(),
 
-        // new CopyWebpackPlugin({
-        ////     patterns: [
-        ////    //     {
-        ////    //     from: path.resolve(__dirname, 'src/media/images/bgrd.jpg'),
-        ////    //     to: path.resolve(__dirname, 'dist/media/images/bgrd.jpg')
-        ////    //}, 
-        ////]
-        //}),
+         new CopyWebpackPlugin({
+             patterns: [
+                 {
+                 from: path.resolve(__dirname, 'src/media/images'),
+                 to: path.resolve(__dirname, 'dist/media/images')
+            }, 
+        ]
+        }),
         new MiniCssExtractPlugin({
             filename: fileName('css'),
             ignoreOrder: true,

@@ -2,16 +2,17 @@
 :root {
     --white: #FFFFFF;
     --black: #111111;
-    --non-active: #E0EEEF;
+    --light-sky: #E0EEEF;
     --yellow: #F5C92A;
     --green: #3FE395;
     --red: #F34F4F;
-    --light-sky: #878787;
+    --grey: #878787;
     --dark-blue: #006BA5;
     --blue: #1C7DAF;
     --sky: #00ABBE;
     --emerald: #04AAB4;
     --violet: #AE7AF0;
+    --body-bgrd: #BEB8B8;
 }
 
 

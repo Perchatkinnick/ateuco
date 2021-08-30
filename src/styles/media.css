@@ -1,23 +1,33 @@
-@media (min-width: 1500px){
-
+@media (max-width: 1000px) {
+    .logo__pic1 p {
+        line-height: 90px;
+    }
 }
 
-@media (max-width: 1500px){
-
-    
+@media (max-width: 800px) {
+    .logo__pic1 p {
+        line-height: 80px;
+        font-size: 12px;
+    }
 }
 
-@media (max-width: 840px){
-
-    
+@media (max-width: 670px) {
+    .logo__pic1 p {
+        line-height: 60px;
+        font-size: 10px;
+    }
 }
 
-@media (max-width: 680px){
-    
+
+@media (max-width: 650px) {
+    .item__sub {
+        font-size: 12px;
+    }
 }
-    
 
-@media (max-width: 500px){
-
-    
+@media (max-width: 500px) {
+    .logo__pic1 p {
+        line-height: 40px;
+        font-size: 8px;
+    }
 }

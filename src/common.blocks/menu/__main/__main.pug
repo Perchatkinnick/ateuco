@@ -1,0 +1,10 @@
+﻿style
+    include ./__main.css
+    include ./__active/__active.css
+
+include ../../menu-item/menu-item.pug
+
+.menu__main
+     +menu-item()(class='desk')
+     +menu-item()(class='menu__active equipment')
+     +menu-item()(class='users')

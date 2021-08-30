@@ -1,0 +1,31 @@
+.logo__pic {
+    background: url('./media/images/logo.png') no-repeat;
+    background-size: 100%;
+    width: 40.9%;
+    height: 85px;
+    margin-top: 27px;
+    margin-left: 28.8%;
+}
+
+.logo__pic1 {
+    background: url('./media/images/logo1.png') no-repeat;
+    background-size: 100%;
+    width: 71.92%;
+    height: 85px;
+    margin-top: 27px;
+    margin-left: 12.6%;
+}
+
+.logo__pic p{
+    visibility: hidden;
+}
+
+.logo__pic1 p {
+    text-align: right;
+    line-height: 110px;
+    font-family: Geometria;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: var(--dark-blue);
+}
