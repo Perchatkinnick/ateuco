@@ -1,6 +1,6 @@
 <!-- Perchatkin Nick perchatkinnick@mail.ru --> <!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--><!DOCTYPE html><!--<html xmlns="http://www.w3.org/1999/xhtml">--><!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ateuco</title><script defer="defer" src="289.18be19beebaa1b0ae5f8.js"></script><script defer="defer" src="main.18be19beebaa1b0ae5f8.js"></script><link href="main.18be19beebaa1b0ae5f8.css" rel="stylesheet"></head><body><div class="wrapper" data-condition="close"><style>.sidebar {
+<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ateuco</title><script defer="defer" src="289.92139600f06386ac6aed.js"></script><script defer="defer" src="main.92139600f06386ac6aed.js"></script><link href="main.92139600f06386ac6aed.css" rel="stylesheet"></head><body><div class="wrapper" data-condition="close"><style>.sidebar {
     grid-column: sidebar;
     background: var(--light-sky);
     display: grid;
@@ -60,13 +60,56 @@
 
 }.menu__active{
     background: var(--blue);
-}</style><style>.menu-item {
+}.desk {
+    background: url('./media/images/desk.png') no-repeat center;
+}
+
+    .desk:hover {
+        background: var(--blue) url('./media/images/desk-active.png') no-repeat center;
+    }
+
+.desk-long {
+    background: url('./media/images/desk-long.png') no-repeat center;
+}
+
+    .desk-long:hover {
+        background: var(--blue) url('./media/images/desk-long-active.png') no-repeat center;
+    }
+            .equipment {
+    background: var(--blue) url('./media/images/equipment.png') no-repeat center;
+}
+
+.equipment-long {
+    background: var(--blue) url('./media/images/equipment-long-active.png') no-repeat center;
+}
+            .users {
+    background: url('./media/images/users.png') no-repeat center;
+}
+
+    .users:hover {
+        background: var(--blue) url('./media/images/users-active.png') no-repeat center;
+    }
+
+.users-long {
+    background: url('./media/images/users-long.png') no-repeat center;
+}
+
+    .users-long:hover {
+        background: var(--blue) url('./media/images/users-long-active.png') no-repeat center;
+    }</style><style>.menu-item {
     display: block;
     height: 58px;
     line-height: 60px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--sky);
+    text-align: center;
+    line-height: 59px;
+    font-family: Geometria;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
     .menu-item a:active,
@@ -76,11 +119,11 @@
         color: inherit;
     }
 
-.menu-item:hover{
-    background: var(--blue);
-}
+    /*.menu-item:hover {
+        color: var(--white);
+    }*/
 
-    .menu-item p {
+/*    .menu-item {
         text-align: center;
         line-height: 59px;
         font-family: Geometria;
@@ -89,7 +132,7 @@
         font-size: 14px;
         text-transform: uppercase;
         color: var(--dark-blue);
-    }
+    }*/
             @media (max-width: 1000px) {
     .logo__pic1 p {
         line-height: 90px;
@@ -122,22 +165,28 @@
         line-height: 40px;
         font-size: 8px;
     }
-}</style><div class="menu__main"><div class="menu-item desk"><p></p></div><div class="menu-item menu__active equipment"><p></p></div><div class="menu-item users"><p></p></div></div><style>.buffer {
+}</style><div class="menu__main"><div class="menu-item desk"></div><div class="menu-item menu__active equipment"></div><div class="menu-item users"></div></div><style>.buffer {
     display: block;
     height: 60px;
     line-height: 60px;
-}</style><div class="buffer"></div><style>.menu__sub{
-
-}.item__icon {
-    background: var(--blue);
-    font-family: Geometria;
+}</style><div class="buffer"></div><style>.menu__sub {
+    
+}
+            .item__icon {
+    background: var(--blue) url('./media/images/filter.png') no-repeat center;
+    /*font-family: Geometria;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
     color: var(--white);
-    padding-left: 91px;
+    padding-left: 91px;*/
+}
+
+.__long {
+    background: var(--blue);
+    color: var(--white);
 }
             .item__sub {
 	background: var(--emerald);
@@ -147,15 +196,27 @@
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: capitalize;
-	color: var(--white);
 	text-align: center;
-}</style><style>.menu-item {
+	color: var(--dark-blue);
+}
+
+	.item__sub:hover {
+		background: var(--blue);
+		color: var(--white);
+	}</style><style>.menu-item {
     display: block;
     height: 58px;
     line-height: 60px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--sky);
+    text-align: center;
+    line-height: 59px;
+    font-family: Geometria;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
     .menu-item a:active,
@@ -165,11 +226,11 @@
         color: inherit;
     }
 
-.menu-item:hover{
-    background: var(--blue);
-}
+    /*.menu-item:hover {
+        color: var(--white);
+    }*/
 
-    .menu-item p {
+/*    .menu-item {
         text-align: center;
         line-height: 59px;
         font-family: Geometria;
@@ -178,7 +239,7 @@
         font-size: 14px;
         text-transform: uppercase;
         color: var(--dark-blue);
-    }
+    }*/
             @media (max-width: 1000px) {
     .logo__pic1 p {
         line-height: 90px;
@@ -211,15 +272,25 @@
         line-height: 40px;
         font-size: 8px;
     }
-}</style><div class="menu__sub"><div class="menu-item item__icon"><p></p></div><div class="menu-item __model item__sub">модель<p></p></div><div class="menu-item __status item__sub">статус<p></p></div><div class="menu-item store item__sub">склад<p></p></div></div></div><style>.arrow {
+}</style><div class="menu__sub"><div class="menu-item item__icon"></div><div class="menu-item __model item__sub">модель</div><div class="menu-item __status item__sub">статус</div><div class="menu-item store item__sub">склад</div></div></div><style>.arrow {
     min-height: 160px;
     padding-top: 100px;
     font-family: Material Icons;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--blue);
-    text-align: center;
-    display: inline-block;
-}</style><div class="arrow">chevron_right</div></div><div class="content"><style>.header {
+    float: left;
+    padding-left: 62px;
+}
+
+    .arrow i {
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        color: var(--dark-blue);
+        padding-left: 33px;
+        float: left;
+    }</style><div class="arrow">chevron_right</div></div><div class="content"><style>.header {
     position: relative;
     font-family: Geometria;
     font-style: normal;
@@ -230,7 +301,6 @@
     color: var(--blue);
     line-height: 115px;
     padding-left: 3.1%;
-    height: 115px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--sky);
@@ -257,4 +327,140 @@
         width: 28.57%;
         background: url('./media/images/exit.png') no-repeat;
         background-size: 70%;
-    }</style><div class="exit">выйти<div></div></div></div></div></div></body></html>
+    }</style><div class="exit">выйти<div></div></div></div><style>.table-wrap{
+
+}</style><div class="table-wrap"><style>.table {
+    height: 610px;
+    width: 92.63%;
+    margin-top: 45px;
+    margin-left: 3.25%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--light-sky);
+}</style><div class="table"><style>.search-wrap{
+    position: relative;
+    background: var(--light-sky);
+    width: 100%;
+    height: 74px;
+}</style><div class="search-wrap"><style>.new-equipment {
+    position: absolute;
+    height: 40px;
+    width: 20.6%;
+    border: 1px solid rgba(4, 170, 180, 0.2);
+    top: 17px;
+    left: 4.5%;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--dark-blue);
+    line-height: 40px;
+    text-align: center;
+}</style><div class="new-equipment">Новое оборудование +</div><style>.search {
+    position: absolute;
+    height: 40px;
+    width: 26.31%;
+    top: 17px;
+    right: 4.5%;
+    border: none;
+    padding-left: 2.23%;
+    background: var(--white);
+}
+
+    .search::placeholder {
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: var(--dark-blue);
+        line-height: 40px;
+    }
+
+    .search:focus{
+        outline: none;
+    }
+
+.searchi {
+    position: absolute;
+    color: var(--dark-blue);
+    font-size: 12px;
+    top: 30px;
+    right: 6%;
+    z-index: 100;
+}</style><i class="fas fa-search searchi"></i> <input class="search" placeholder="Поиск"></div><style>.info-wrap{
+
+}</style><div class="info-wrap"><style>.info {
+    height: 471px;
+    width: 90.92%;
+    margin-top: 46px;
+    margin-left: 4.47%;
+}
+  .info__item {
+    position: relative;
+    height: 31px;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 171, 190, 0.1);
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 30px;
+    color: var(--black);
+    display: grid;
+    grid-template-columns: [first-column] 38.67% [sec-column] 49.26% [thrd-column] 12.07%;
+}
+
+.info__item:hover{
+    background: var(--light-sky);
+}
+
+.first-column {
+    padding-left: 15px;
+}
+
+.sec-column {
+    height: 100%;
+}
+
+.thrd-column {
+    padding-left: 17px;
+}
+
+.round {
+    position:absolute;
+    top: 9px;
+    right: 105px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}</style><div class="info"><style>.head {
+    height: 35px;
+    width: 100%;
+    background: var(--emerald);
+    display: grid;
+    grid-template-columns: [head__store] 38.67% [head__model] 49.26% [head__status] 12.07%;
+    line-height: 35px;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: var(--white);
+}</style><div class="head"><style>.head__store {
+    position: relative;
+    padding-left: 15px;
+    text-transform: none;
+}</style><div class="head__store">Склад<style>.head__check {
+    position: absolute;
+    top: 2px;
+    left: 67px;
+    height: 10px;
+    width: 12px;
+    font-family: Material Icons;
+    font-size: 14px;
+    color: var(--white);
+}</style><div class="head__check">expand_more</div></div><style></style><div class="head__model">Модель</div><style></style><div class="head__status">Статус</div></div><style></style><div class="info__container"></div></div></div></div></div></div></div></body></html>

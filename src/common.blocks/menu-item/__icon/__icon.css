@@ -1,11 +1,16 @@
 .item__icon {
-    background: var(--blue);
-    font-family: Geometria;
+    background: var(--blue) url('./media/images/filter.png') no-repeat center;
+    /*font-family: Geometria;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
     color: var(--white);
-    padding-left: 91px;
+    padding-left: 91px;*/
+}
+
+.__long {
+    background: var(--blue);
+    color: var(--white);
 }

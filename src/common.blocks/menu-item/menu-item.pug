@@ -2,7 +2,6 @@ style
     include ./menu-item.css
     include ../../styles/media.css
 
-mixin menu-item(content, link)
+mixin menu-item(content, link, icon)
     - const classes = ['menu-item', attributes.class]
     div(class=classes) #{content}
-        <p>

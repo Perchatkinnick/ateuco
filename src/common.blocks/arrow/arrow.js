@@ -11,29 +11,31 @@ function onArrowClickHandler(e) {
         wrapper.style.gridTemplateColumns = '[sidebar] 24.76% [content]';
         wrapper.dataset.condition = 'open';
 
-        document.querySelector('.desk').lastElementChild.innerHTML = "рабочий стол";
-        document.querySelector('.equipment').lastElementChild.innerHTML = "оборудование";
-        document.querySelector('.users').lastElementChild.innerHTML = "пользователи";
+        document.querySelector('.desk').setAttribute('class', 'menu-item desk-long');
+        document.querySelector('.equipment').setAttribute('class', 'menu-item menu__active equipment-long');
+        document.querySelector('.users').setAttribute('class', 'menu-item users-long');
 
-        document.querySelector('.arrow').innerHTML = 'chevron_left свернуть панель';
+        document.querySelector('.arrow').innerHTML = 'chevron_left <i>Свернуть панель</i>';
 
         document.querySelector('.logo__pic').setAttribute('class', 'logo__pic1');
 
         document.querySelector('.item__icon').innerHTML = 'фильтры:';
+        document.querySelector('.item__icon').setAttribute('class', 'menu-item __long');
 
     } else {
         wrapper.style.gridTemplateColumns = '[sidebar] 10.3% [content]';
         wrapper.dataset.condition = 'close';
 
-        document.querySelector('.desk').lastElementChild.innerHTML = "";
-        document.querySelector('.equipment').lastElementChild.innerHTML = "";
-        document.querySelector('.users').lastElementChild.innerHTML = "";
+        document.querySelector('.desk-long').setAttribute('class', 'menu-item desk');
+        document.querySelector('.equipment-long').setAttribute('class', 'menu-item menu__active equipment');
+        document.querySelector('.users-long').setAttribute('class', 'menu-item users');
 
         document.querySelector('.arrow').innerHTML = 'chevron_right';
 
         document.querySelector('.logo__pic1').setAttribute('class', 'logo__pic');
 
-        document.querySelector('.item__icon').innerHTML = '';
+        document.querySelector('.__long').innerHTML = '';
+        document.querySelector('.__long').setAttribute('class', 'menu-item item__icon');
     }
     
 }

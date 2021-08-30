@@ -5,6 +5,13 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--sky);
+    text-align: center;
+    line-height: 59px;
+    font-family: Geometria;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
     .menu-item a:active,
@@ -14,11 +21,11 @@
         color: inherit;
     }
 
-.menu-item:hover{
-    background: var(--blue);
-}
+    /*.menu-item:hover {
+        color: var(--white);
+    }*/
 
-    .menu-item p {
+/*    .menu-item {
         text-align: center;
         line-height: 59px;
         font-family: Geometria;
@@ -27,4 +34,4 @@
         font-size: 14px;
         text-transform: uppercase;
         color: var(--dark-blue);
-    }
+    }*/

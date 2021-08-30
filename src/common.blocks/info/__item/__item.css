@@ -1,0 +1,41 @@
+.info__item {
+    position: relative;
+    height: 31px;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 171, 190, 0.1);
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 30px;
+    color: var(--black);
+    display: grid;
+    grid-template-columns: [first-column] 38.67% [sec-column] 49.26% [thrd-column] 12.07%;
+}
+
+.info__item:hover{
+    background: var(--light-sky);
+}
+
+.first-column {
+    padding-left: 15px;
+}
+
+.sec-column {
+    height: 100%;
+}
+
+.thrd-column {
+    padding-left: 17px;
+}
+
+.round {
+    position:absolute;
+    top: 9px;
+    right: 105px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}

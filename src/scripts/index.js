@@ -8,8 +8,10 @@ import '@fonts/iconfont/material-icons.css';
 import '@fancyapps/fancybox/dist/jquery.fancybox.min.css';
 
 import { onArrowLoad } from '@blocks/arrow/arrow';
+import { loadData } from '@blocks/info/info';
 
 const supportsTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
 console.log('supportTouch is ' + supportsTouch);
 
 onArrowLoad();
+loadData();

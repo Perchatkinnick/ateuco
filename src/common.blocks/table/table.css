@@ -1,0 +1,9 @@
+.table {
+    height: 610px;
+    width: 92.63%;
+    margin-top: 45px;
+    margin-left: 3.25%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--light-sky);
+}

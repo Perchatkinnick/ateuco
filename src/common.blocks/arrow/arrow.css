@@ -2,8 +2,18 @@
     min-height: 160px;
     padding-top: 100px;
     font-family: Material Icons;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--blue);
-    text-align: center;
-    display: inline-block;
+    float: left;
+    padding-left: 62px;
 }
+
+    .arrow i {
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        color: var(--dark-blue);
+        padding-left: 33px;
+        float: left;
+    }

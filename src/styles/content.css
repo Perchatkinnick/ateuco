@@ -1,3 +1,5 @@
 ﻿.content {
     grid-column: content;
+    display: grid;
+    grid-template-rows: [header] 115px [table-wrap];
 }

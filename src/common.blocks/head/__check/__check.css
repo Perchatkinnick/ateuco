@@ -1,0 +1,10 @@
+.head__check {
+    position: absolute;
+    top: 2px;
+    left: 67px;
+    height: 10px;
+    width: 12px;
+    font-family: Material Icons;
+    font-size: 14px;
+    color: var(--white);
+}

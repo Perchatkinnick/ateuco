@@ -1,0 +1,6 @@
+.search-wrap{
+    position: relative;
+    background: var(--light-sky);
+    width: 100%;
+    height: 74px;
+}
