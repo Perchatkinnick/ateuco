@@ -1,15 +1,51 @@
-.menu__main{
-
+.desk {
+    background: url('./media/svg/desk.svg') no-repeat;
+    background-position: center 16px;
 }
 
-.desk{
+    .desk:hover {
+        background: var(--blue) url('./media/svg/desk-active.svg') no-repeat center;
+    }
 
+.desk-long {
+    background: url('./media/svg/desk.svg') no-repeat;
+    background-position: 22% 16px;
 }
 
-.equipment{
+    .desk-long:hover {
+        background: var(--blue) url('./media/svg/desk-active.svg') no-repeat;
+        background-position: 22% 16px;
+        color: var(--white);
+    }
 
+
+.equipment {
+    background: var(--blue) url('./media/svg/equipment.svg') no-repeat;
+    background-position: center 16px;
 }
 
-.users{
-
+.equipment-long {
+    background: var(--blue) url('./media/svg/equipment.svg') no-repeat;
+    background-position: 22% 16px;
+    color: var(--white);
 }
+
+.users {
+    background: url('./media/svg/users.svg') no-repeat;
+    background-position: center 16px;
+}
+
+    .users:hover {
+        background: var(--blue) url('./media/svg/users-active.svg') no-repeat center;
+    }
+
+.users-long {
+    background: url('./media/svg/users.svg') no-repeat;
+    background-position: 22% 16px;
+}
+
+    .users-long:hover {
+        background: var(--blue) url('./media/svg/users-active.svg') no-repeat;
+        background-position: 22% 16px;
+        color: var(--white);
+    }

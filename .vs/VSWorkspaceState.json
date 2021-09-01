@@ -3,8 +3,14 @@
     "",
     "\\src",
     "\\src\\common.blocks",
-    "\\src\\common.blocks\\exit"
+    "\\src\\common.blocks\\arrow",
+    "\\src\\common.blocks\\menu",
+    "\\src\\common.blocks\\menu-item",
+    "\\src\\common.blocks\\menu-item\\__icon",
+    "\\src\\common.blocks\\menu-item\\__sub",
+    "\\src\\common.blocks\\menu\\__main\\icons",
+    "\\src\\common.blocks\\menu\\__sub"
   ],
-  "SelectedNode": "\\src\\common.blocks\\exit\\exit.pug",
+  "SelectedNode": "\\src\\common.blocks\\arrow\\arrow.js",
   "PreviewInSolutionExplorer": true
 }

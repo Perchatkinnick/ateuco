@@ -1,7 +1,0 @@
-.equipment {
-    background: var(--blue) url('./media/images/equipment.png') no-repeat center;
-}
-
-.equipment-long {
-    background: var(--blue) url('./media/images/equipment-long-active.png') no-repeat center;
-}

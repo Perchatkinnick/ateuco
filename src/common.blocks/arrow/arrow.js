@@ -11,8 +11,11 @@ function onArrowClickHandler(e) {
         wrapper.style.gridTemplateColumns = '[sidebar] 24.76% [content]';
         wrapper.dataset.condition = 'open';
 
+        document.querySelector('.desk').innerHTML = 'РАБОЧИЙ СТОЛ';
         document.querySelector('.desk').setAttribute('class', 'menu-item desk-long');
-        document.querySelector('.equipment').setAttribute('class', 'menu-item menu__active equipment-long');
+        document.querySelector('.equipment').innerHTML = 'ОБОРУДОВАНИЕ';
+        document.querySelector('.equipment').setAttribute('class', 'menu-item equipment-long');
+        document.querySelector('.users').innerHTML = 'ПОЛЬЗОВАТЕЛИ';
         document.querySelector('.users').setAttribute('class', 'menu-item users-long');
 
         document.querySelector('.arrow').innerHTML = 'chevron_left <i>Свернуть панель</i>';
@@ -26,8 +29,11 @@ function onArrowClickHandler(e) {
         wrapper.style.gridTemplateColumns = '[sidebar] 10.3% [content]';
         wrapper.dataset.condition = 'close';
 
+        document.querySelector('.desk-long').innerHTML = '';
         document.querySelector('.desk-long').setAttribute('class', 'menu-item desk');
+        document.querySelector('.equipment-long').innerHTML = '';
         document.querySelector('.equipment-long').setAttribute('class', 'menu-item menu__active equipment');
+        document.querySelector('.users-long').innerHTML = '';
         document.querySelector('.users-long').setAttribute('class', 'menu-item users');
 
         document.querySelector('.arrow').innerHTML = 'chevron_right';

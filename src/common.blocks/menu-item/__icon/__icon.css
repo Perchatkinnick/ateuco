@@ -1,12 +1,13 @@
 .item__icon {
     background: var(--blue) url('./media/images/filter.png') no-repeat center;
+    color: var(--white);
     /*font-family: Geometria;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    color: var(--white);
+    
     padding-left: 91px;*/
 }
 

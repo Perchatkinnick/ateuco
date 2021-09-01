@@ -1,6 +1,6 @@
 <!-- Perchatkin Nick perchatkinnick@mail.ru --> <!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--><!DOCTYPE html><!--<html xmlns="http://www.w3.org/1999/xhtml">--><!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ateuco</title><script defer="defer" src="289.92139600f06386ac6aed.js"></script><script defer="defer" src="main.92139600f06386ac6aed.js"></script><link href="main.92139600f06386ac6aed.css" rel="stylesheet"></head><body><div class="wrapper" data-condition="close"><style>.sidebar {
+<![endif]--><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ateuco</title><script defer="defer" src="289.47ab703ecedb95010116.js"></script><script defer="defer" src="main.47ab703ecedb95010116.js"></script><link href="main.47ab703ecedb95010116.css" rel="stylesheet"></head><body><div class="wrapper" data-condition="close"><style>.sidebar {
     grid-column: sidebar;
     background: var(--light-sky);
     display: grid;
@@ -44,58 +44,56 @@
     color: var(--dark-blue);
 }</style><div class="logo__pic"><p>личный кабинет</p></div></div><style>.menu{
 
-}</style><div class="menu"><style>.menu__main{
-
-}
-
-.desk{
-
-}
-
-.equipment{
-
-}
-
-.users{
-
-}.menu__active{
-    background: var(--blue);
-}.desk {
-    background: url('./media/images/desk.png') no-repeat center;
+}</style><div class="menu"><style>.desk {
+    background: url('./media/svg/desk.svg') no-repeat;
+    background-position: center 16px;
 }
 
     .desk:hover {
-        background: var(--blue) url('./media/images/desk-active.png') no-repeat center;
+        background: var(--blue) url('./media/svg/desk-active.svg') no-repeat center;
     }
 
 .desk-long {
-    background: url('./media/images/desk-long.png') no-repeat center;
+    background: url('./media/svg/desk.svg') no-repeat;
+    background-position: 22% 16px;
 }
 
     .desk-long:hover {
-        background: var(--blue) url('./media/images/desk-long-active.png') no-repeat center;
+        background: var(--blue) url('./media/svg/desk-active.svg') no-repeat;
+        background-position: 22% 16px;
+        color: var(--white);
     }
-            .equipment {
-    background: var(--blue) url('./media/images/equipment.png') no-repeat center;
+
+
+.equipment {
+    background: var(--blue) url('./media/svg/equipment.svg') no-repeat;
+    background-position: center 16px;
 }
 
 .equipment-long {
-    background: var(--blue) url('./media/images/equipment-long-active.png') no-repeat center;
+    background: var(--blue) url('./media/svg/equipment.svg') no-repeat;
+    background-position: 22% 16px;
+    color: var(--white);
 }
-            .users {
-    background: url('./media/images/users.png') no-repeat center;
+
+.users {
+    background: url('./media/svg/users.svg') no-repeat;
+    background-position: center 16px;
 }
 
     .users:hover {
-        background: var(--blue) url('./media/images/users-active.png') no-repeat center;
+        background: var(--blue) url('./media/svg/users-active.svg') no-repeat center;
     }
 
 .users-long {
-    background: url('./media/images/users-long.png') no-repeat center;
+    background: url('./media/svg/users.svg') no-repeat;
+    background-position: 22% 16px;
 }
 
     .users-long:hover {
-        background: var(--blue) url('./media/images/users-long-active.png') no-repeat center;
+        background: var(--blue) url('./media/svg/users-active.svg') no-repeat;
+        background-position: 22% 16px;
+        color: var(--white);
     }</style><style>.menu-item {
     display: block;
     height: 58px;
@@ -110,6 +108,7 @@
     font-style: normal;
     font-size: 14px;
     text-transform: uppercase;
+    color: var(--dark-blue);
 }
 
     .menu-item a:active,
@@ -117,22 +116,20 @@
     .menu-item a{
         text-decoration: none;
         color: inherit;
+        
     }
 
-    /*.menu-item:hover {
+    .menu-item.equipment-long,
+    .menu-item.__long,
+    .menu-item.item__sub
+    {
         color: var(--white);
-    }*/
+    }
 
-/*    .menu-item {
-        text-align: center;
-        line-height: 59px;
-        font-family: Geometria;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        text-transform: uppercase;
-        color: var(--dark-blue);
-    }*/
+    .menu-item.__long {
+        text-align: left;
+        padding-left: 31%;
+    }
             @media (max-width: 1000px) {
     .logo__pic1 p {
         line-height: 90px;
@@ -165,7 +162,7 @@
         line-height: 40px;
         font-size: 8px;
     }
-}</style><div class="menu__main"><div class="menu-item desk"></div><div class="menu-item menu__active equipment"></div><div class="menu-item users"></div></div><style>.buffer {
+}</style><div class="menu__main"><div class="menu-item desk"></div><div class="menu-item equipment"></div><div class="menu-item users"></div></div><style>.buffer {
     display: block;
     height: 60px;
     line-height: 60px;
@@ -174,13 +171,14 @@
 }
             .item__icon {
     background: var(--blue) url('./media/images/filter.png') no-repeat center;
+    color: var(--white);
     /*font-family: Geometria;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    color: var(--white);
+    
     padding-left: 91px;*/
 }
 
@@ -197,7 +195,7 @@
 	line-height: 18px;
 	text-transform: capitalize;
 	text-align: center;
-	color: var(--dark-blue);
+	color: var(--white);
 }
 
 	.item__sub:hover {
@@ -217,6 +215,7 @@
     font-style: normal;
     font-size: 14px;
     text-transform: uppercase;
+    color: var(--dark-blue);
 }
 
     .menu-item a:active,
@@ -224,22 +223,20 @@
     .menu-item a{
         text-decoration: none;
         color: inherit;
+        
     }
 
-    /*.menu-item:hover {
+    .menu-item.equipment-long,
+    .menu-item.__long,
+    .menu-item.item__sub
+    {
         color: var(--white);
-    }*/
+    }
 
-/*    .menu-item {
-        text-align: center;
-        line-height: 59px;
-        font-family: Geometria;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 14px;
-        text-transform: uppercase;
-        color: var(--dark-blue);
-    }*/
+    .menu-item.__long {
+        text-align: left;
+        padding-left: 31%;
+    }
             @media (max-width: 1000px) {
     .logo__pic1 p {
         line-height: 90px;

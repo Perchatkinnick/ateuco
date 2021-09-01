@@ -7,7 +7,7 @@
 	line-height: 18px;
 	text-transform: capitalize;
 	text-align: center;
-	color: var(--dark-blue);
+	color: var(--white);
 }
 
 	.item__sub:hover {
